@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SocialHub</string>
+    <string name="clear_cache">Log Out</string>
+    <string name="night_mode">Night Mode</string>
+</resources>

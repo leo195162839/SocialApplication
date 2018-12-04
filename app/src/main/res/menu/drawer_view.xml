@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/facebook"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/twitter"
+            android:icon="@drawable/twitter"
+            android:title="Twitter" />
+        <item
+            android:id="@+id/linkedin"
+            android:icon="@drawable/linkedin"
+            android:title="Linkedin" />
+    </group>
+
+    <item android:title="Quick Link">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/fbnotification"
+                    android:icon="@drawable/facebook"
+                    android:title="Notifications" />
+                <item
+                    android:id="@+id/moments"
+                    android:icon="@drawable/twitter"
+                    android:title="Moments" />
+                <item
+                    android:id="@+id/notifications"
+                    android:icon="@drawable/twitter"
+                    android:title="Notifications" />
+                <item
+                    android:id="@+id/dm"
+                    android:icon="@drawable/twitter"
+                    android:title="Direct Message" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Setting">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/night_mode"
+                    android:title="@string/night_mode"
+                    app:actionLayout="@layout/widget_switch"/>
+                <item
+                    android:id="@+id/clear_cache"
+                    android:title="@string/clear_cache" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#EFEFEF</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="colorPrimaryNight">#303031</color>
+    <color name="colorPrimaryDarkNight">#494949</color>
+
+    <color name="tab_checked">#545454</color>
+    <color name="tab_unchecked">#000000</color>
+</resources>
