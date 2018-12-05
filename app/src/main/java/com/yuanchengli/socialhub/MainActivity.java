@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawer;
     private NavigationView nvDrawer;
     private ViewPager viewPager;
-    private SocialTabFragmentStatePagerAdapter mAdapter;
+    private SocialTabFragmentPagerAdapter mAdapter;
     private Boolean isFbNotificationQuickLink = false;
     private Boolean isDMQuickLink = false;
     private Boolean isMomentQuickLink = false;
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.pager);
 
 
-        mAdapter = new SocialTabFragmentStatePagerAdapter(getSupportFragmentManager());
+        mAdapter = new SocialTabFragmentPagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(mAdapter);
         viewPager.setOffscreenPageLimit(2);
 

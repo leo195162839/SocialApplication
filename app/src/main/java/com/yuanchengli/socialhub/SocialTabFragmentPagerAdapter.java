@@ -1,27 +1,21 @@
 package com.yuanchengli.socialhub;
 
-import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.ViewGroup;
-
 import java.lang.ref.WeakReference;
-import java.util.HashMap;
-import java.util.Map;
 
-public class SocialTabFragmentStatePagerAdapter extends FragmentStatePagerAdapter {
+public class SocialTabFragmentPagerAdapter extends FragmentPagerAdapter {
 
     private final SparseArray<WeakReference<Fragment>> instantiatedFragments = new SparseArray<>();
-    private Map<Integer,String> mFragmentTags;
 
 
-    public SocialTabFragmentStatePagerAdapter(FragmentManager fm) {
+    public SocialTabFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
-        mFragmentTags = new HashMap<>();
     }
 
     @Override
